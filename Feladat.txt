@@ -1,0 +1,19 @@
+1. feladat: Szabványok összessége, ami a UNIX vagy UNIX-like rendszereknek az alapköve. Ilyen rendszerek például a macOS, a BSD rendszerek vagy a Linuxok. Lényege, hogy a UNIX alapú rendszerek gond nélkül tudjanak egymással kommunikálni illetve hogy más alapú rendszerekkel is legyen kompatibilitásuk - Windowsnak is van egy ilyen rétege.
+
+2. feladat: Az X11 gyakorlatilag a grafikus megjelenítéséért felel a Linux rendszereknek. Háttérfolyamatként ez hajta meg a különböző WM-eket mint a GNOME, KDE vagy Pantheon.
+
+3. feladat: Az stdin és az stdout a standard input és output parancsa. Ezekkel tudja a rendszer beolvasni a felhasználó által beírtakat. Az stdoutot a program írja ki, ez az amivel szembesül a felhasználó.
+
+4. feladat: Háttérfolyamatok, melyek nem igényelnek nyitott shell -t. Rendszerfolyamatok és kiszolgáló folyamatok.
+
+5. feladat: bin – alapvető felhasználói binárisok
+            etc – konfigurációs állományok
+            usr – felhasználói programok
+            home – saját könyvtárak
+
+6. feladat:  Titkos fájlok. A .-al jelölt mappák és fájlok titkosak és alapértelmezett módon nem lehet őket látni a fájlkezelőkben. Ettől elérhetőek ugyanúgy.
+
+7. feladat: Az abszolút útvonal az a rendszer gyökérkönyvtárától számítódik míg a relatív a jelenlegi helyzetből.
+            pl. ha a home/lucimc-ben vagyunk és a Pictures helyét keressük
+                abszolút útvonal: /home/lucimc/Pictures
+                relatív: /Pictures
